@@ -46,12 +46,12 @@ const galleries = {
       {type: "image", src: "media/memories/mem11.jpg", caption: "Memory 11 - One with the eyes speaking"},
       {type: "image", src: "media/memories/mem12.jpg", caption: "Memory 12 - One with Sun and Shadow"},
       {type: "image", src: "media/memories/mem13.jpg", caption: "Memory 13 - One scared of deal signing"},
-      {type: "image", src: "media/memories/mem14.JPG", caption: "Memory 14 - One when hitched"},
-      {type: "image", src: "media/memories/mem15.JPG", caption: "Memory 15 - One with the blessings"},
+      {type: "image", src: "media/memories/mem14.jpg", caption: "Memory 14 - One when hitched"},
+      {type: "image", src: "media/memories/mem15.jpg", caption: "Memory 15 - One with the blessings"},
       {type: "image", src: "media/memories/mem16.jpg", caption: "Memory 16 - One with the constants"},
-      {type: "image", src: "media/memories/mem17.JPG", caption: "Memory 17 - One for the legacy"},
+      {type: "image", src: "media/memories/mem17.jpg", caption: "Memory 17 - One for the legacy"},
       {type: "image", src: "media/memories/mem18.jpg", caption: "Memory 18 - One with new bonds"},
-      {type: "image", src: "media/memories/mem19.JPG", caption: "Memory 19 - One with all the hope"},
+      {type: "image", src: "media/memories/mem19.jpg", caption: "Memory 19 - One with all the hope"},
       {type: "image", src: "media/memories/mem20.jpg", caption: "Memory 20 - One for the stars"}
     ]
   }
