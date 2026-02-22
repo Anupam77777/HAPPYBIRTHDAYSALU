@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For My Queen ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background Music -->
+  <audio id="bg-music" loop preload="auto">
+    <source src="assets/background-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Gallery Overlay -->
+  <div id="overlay" class="overlay hidden">
+    <div class="overlay-inner">
+      <div class="overlay-header">
+        <h2 id="overlay-title"></h2>
+        <button id="close-overlay" class="icon-btn" aria-label="Close">✕</button>
+      </div>
+      <p id="overlay-intro" class="overlay-intro"></p>
+      <div class="overlay-content" id="overlay-content"></div>
+      <button id="back-btn" class="btn">Back</button>
+    </div>
+  </div>
+
+  <!-- Main App -->
+  <div class="container">
+    <div class="character">
+      <img src="assets/character.gif" alt="Cute character" class="character-img" />
+    </div>
+
+    <div class="welcome">
+      <h1>Hi sweetheart BUBU 💖</h1>
+      
+      <!-- Music Control -->
+      <div class="music-control">
+        <button id="music-toggle" class="music-btn" title="Toggle music">🎵</button>
+      </div>
+      
+      <p id="welcome-text">
+        Welcome to your wonderland 💖
+        Tap any option below and let it walk you through some corners of my heart.
+      </p>
+    </div>
+
+    <div class="options">
+      <button class="option-btn" data-section="queen">👑 The Queen of hearts</button>
+      <button class="option-btn" data-section="special">🎁 Special treat</button>
+      <button class="option-btn" data-section="memories">💭 Memories</button>
+    </div>
+
+    <div class="footer-msg" id="footer-msg"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
